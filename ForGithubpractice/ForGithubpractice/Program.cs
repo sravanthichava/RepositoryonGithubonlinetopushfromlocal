@@ -15,6 +15,7 @@ namespace ForGithubpractice
         {
             CreateHostBuilder(args).Build().Run();
             Console.WriteLine("Chechking to push the changes to Sub Relase");
+            Console.WriteLine("Second time check to push to release-->main");
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

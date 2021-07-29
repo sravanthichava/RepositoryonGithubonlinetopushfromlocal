@@ -14,7 +14,7 @@ namespace ForGithubpractice
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
-            Console.WriteLine("This is for pushing into online github");
+            Console.WriteLine("Chechking to push the changes to Sub Relase");
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
